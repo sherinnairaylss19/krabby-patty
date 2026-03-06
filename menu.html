@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Krusty Krab</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; margin: 0; }
+        nav { background: #e74c3c; padding: 15px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        
+        .menu-container { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; padding: 40px; }
+        .menu-card { background: white; border-radius: 15px; width: 250px; overflow: hidden; box-shadow: 0 6px 12px rgba(0,0,0,0.1); transition: 0.3s; }
+        .menu-card:hover { transform: translateY(-10px); }
+        
+        .menu-info { padding: 15px; }
+        .price { font-size: 1.2em; color: #2ecc71; font-weight: bold; }
+        .btn-order { display: inline-block; background: #e74c3c; color: white; padding: 10px 20px; margin-top: 10px; border-radius: 5px; text-decoration: none; }
+        
+        h2 { color: #e74c3c; margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="resep.html">Resep</a>
+        <a href="karyawan.html">Karyawan</a>
+        <a href="menu.html">Menu</a>
+        <a href="pelanggan.html">Pelanggan</a>
+    </nav>
+
+    <h2>Menu Makanan Lezat</h2>
+
+    <div class="menu-container">
+        <div class="menu-card">
+            <div class="menu-info">
+                <h3>Krabby Patty</h3>
+                <p>Burger legendaris</p>
+                <p class="price">$2.99</p>
+                <a href="#" class="btn-order">Pesan Sekarang</a>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-info">
+                <h3>Coral Bits</h3>
+                <p>Potongan koral goreng.</p>
+                <p class="price">$1.50</p>
+                <a href="#" class="btn-order">Pesan Sekarang</a>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <div class="menu-info">
+                <h3>Kelp Shake</h3>
+                <p>Minuman rumput laut.</p>
+                <p class="price">$2.00</p>
+                <a href="#" class="btn-order">Pesan Sekarang</a>
+            </div>
+        </div>
+    </div>
+
+    <p><a href="index.html" style="color: #e74c3c; text-decoration: none; font-weight: bold;">← Kembali ke Dashboard</a></p>
+
+</body>
+</html>
